@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    android:backgroundTint="#80E3E3E3"
+    android:backgroundTintMode="src_over"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textModule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/schoolwork_regular"
+        android:text="@string/module"
+        android:textSize="79sp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/schoolwork_regular"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:gravity="center_horizontal"
+        android:text="@string/Year2" />
+
+    <TextView
+        android:id="@+id/textC203Module"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/schoolwork_regular"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:text="@string/C203" />
+
+    <TextView
+        android:id="@+id/textC206Module"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/schoolwork_regular"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:text="@string/C206" />
+
+    <TextView
+        android:id="@+id/textC218Module"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/schoolwork_regular"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:text="@string/C218" />
+
+    <TextView
+        android:id="@+id/textC235Module"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/schoolwork_regular"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:text="@string/C235" />
+
+    <TextView
+        android:id="@+id/textC346Module"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/schoolwork_regular"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:text="@string/C346" />
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyModules</string>
+    <string name="module">Module Checker</string>
+    <string name="Year2">Year 2 Semester 1</string>
+    <string name="C203"><u>C203 - Web AppIn Development in php</u></string>
+    <string name="C206"><u>C206 - Software Development Process</u></string>
+    <string name="C218"><u>C218 - UI/UX Design for Apps</u></string>
+    <string name="C235"><u>C235 - IT Security and Management</u></string>
+    <string name="C346"><u>C346 - Mobile App Development</u></string>
+    <string name="Return">Return</string>
+</resources>

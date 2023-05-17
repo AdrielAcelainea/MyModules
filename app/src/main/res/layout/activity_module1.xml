@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    android:backgroundTint="#80E3E3E3"
+    android:backgroundTintMode="src_over"
+    tools:context=".ModuleActivity1">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/schoolwork_regular"
+        android:textSize="79sp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:text="@string/module" />
+
+    <TextView
+        android:id="@+id/textModuleCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/schoolwork_regular"
+        android:textSize="58sp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textModules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/schoolwork_regular"
+        android:textSize="40sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="" />
+
+    <Button
+        android:id="@+id/buttonReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Return" />
+
+</LinearLayout>
